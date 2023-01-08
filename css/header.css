@@ -7,7 +7,7 @@
     cursor: pointer;
 }
 
-.btn:before{
+.btn:before {
     content: '';
     position: absolute;
     width: 30.45px;
@@ -20,33 +20,33 @@
     transition: left.5s;
 }
 
-.btn.active::before{
+.btn.active::before {
     left: 60px;
 }
 
-@media (max-width:500px) {
+.logo {
+    max-width: 50%;
+}
 
-    header{
-        margin-top: 30px;
-    }
-    .logo{
-        width: 159px ;
-        height:35px;
-    }
+@media (max-width:520px) {
+
+
+
+
 
     .btn {
         width: 85px;
         height: 32px;
     }
-    
-    .btn:before{
+
+    .btn:before {
         content: '';
         position: absolute;
         width: 25.37px;
-        height:25.37px;
+        height: 25.37px;
     }
-    
-    .btn.active::before{
+
+    .btn.active::before {
         left: 50px;
     }
 }

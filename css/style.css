@@ -14,11 +14,10 @@ header {
     height: 100px;
     place-self: start center;
     grid-area: content;
-    max-width: 1200px;
     width: 100%;
     z-index: 1;
-    margin-top: 48px;
-    padding-left: 20px;
+    margin-top: 4%;
+    padding-left: 8%;
     padding-right: 20px ;
     display: flex;
     justify-content: space-between;
@@ -32,18 +31,28 @@ body.active {
 main {
     grid-area: content;
     display: flex;
+    height: 100vh;
+    max-height: 80vh;
+    padding-left: 8%;
+    padding-right: 20px ;
+    margin-top: 15vh;
     justify-content: space-between;
     align-items: center;
+    
     
 
 }
 
 footer {
     width: 100%;
-    height: 50px;
     display: grid;
     grid-area: content;
     place-self: end center;
     place-content: center;
     width: 100%;
+    padding-top: 20px; 
+}
+
+footer.active{
+    color: #ffff
 }

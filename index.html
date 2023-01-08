@@ -11,26 +11,43 @@
         rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/main.css">
     <title>Bee Creative!</title>
 </head>
 
 <body>
     <header>
         <img src="./img/logo.png" alt="Logo da agência de design Bee Creative" class="logo">
-            <div class="btn">
-                
-            </div>
+            <div class="btn"></div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="container">
+            <div class="text">
+                <h1>Bee Digital
+                    Design Agency</h1>
+                <p>SOLUÇÕES COMPLETAS PARA CONQUISTAR A PREFERÊNCIA DO SEU CLIENTE</p>
+            </div>
+            <button>AGENDAR APRESENTAÇÃO</button>
+        </section>
+        <div class="img-container">
+            <img src="./img/image 1.png" alt="obra de arte">
+        </div>
+    </main>
+    <footer>copywriting © 2023 bianca leão</footer>
 </body>
     <script>
         const btn = document.querySelector('.btn');
         const body = document.querySelector('body');
+        const container = document.querySelector('.container');
+        const button = document.querySelector('button');
+        const footer = document.querySelector('footer')
 
         btn.onclick = function(){
             this.classList.toggle('active')
             body.classList.toggle('active')
+            container.classList.toggle('active')
+            button.classList.toggle('active')
+            footer.classList.toggle('active')
         }
 
     </script>

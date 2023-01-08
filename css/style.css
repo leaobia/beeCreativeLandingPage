@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "content";
+}
+
+header {
+    height: 100px;
+    place-self: start center;
+    grid-area: content;
+    max-width: 1200px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+
+main {
+    grid-area: content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-area: content;
+    place-self: end center;
+    place-content: center;
+    width: 100%;
+    background-color: blue;
+}

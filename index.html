@@ -10,13 +10,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Castoro&family=Lora:wght@400;500;600&display=swap"
         rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/header.css">
     <title>Bee Creative!</title>
 </head>
 
 <body>
-    <header>oi</header>
-    <main>teste</main>
-    <footer>olá</footer>
+    <header>
+        <img src="./img/logo.png" alt="Logo da agência de design Bee Creative" class="logo">
+            <div class="btn">
+                
+            </div>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
+    <script>
+        const btn = document.querySelector('.btn');
+        const body = document.querySelector('body');
 
+        btn.onclick = function(){
+            this.classList.toggle('active')
+            body.classList.toggle('active')
+        }
+
+    </script>
 </html>

@@ -23,6 +23,10 @@ Site do tipo landing page para divulgar a agência (ficticia) de design online c
 
 - [Segue link do Figma](https://www.figma.com/file/UYHHCBxQkNdFSWqbhs0YHz/beeCreativeLandingPage?node-id=0%3A1&t=MN6KLcqtMilhFrra-0)
 
+## Lighthouse
+
+![](./img/notaLightHouse.PNG)
+
 ## Autor 
 
 - [Bianca Leão](https://github.com/leaobia)
